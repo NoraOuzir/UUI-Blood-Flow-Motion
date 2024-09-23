@@ -1,8 +1,9 @@
 # Joint Blood Flow, Tissue and Motion Estimation for Ultrafast Ultrasound Imaging 
-Demo code for the paper: 
+Demo MATLAB code for the paper: 
 
 N. Ouzir, V. Pustovalov, D.-H. Pham, D. kouamé, and J.-C. Pesquet, *A Proximal Algorithm for Joint Blood Flow Computation and Tissue Motion Compensation in Doppler Ultrafast Ultrasound Imaging*, 2023.
 
+- download the simulated data here: https://www.dropbox.com/scl/fi/lqbglmjn57picn9bn2600/data.zip?rlkey=as0690r0afqolzqo0fsructxt&st=olnah75l&dl=0
 - run 'main.m' to load the data, run the multiresolution scheme with 6 levels, compute errors and plot the results. 
 - 'ComputeFlow.m' runs the proximal algorithm for 1 level and solves the following optimization problem :
 
