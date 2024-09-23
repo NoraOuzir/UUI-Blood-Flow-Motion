@@ -32,15 +32,15 @@ N. Ouzir, V. Pustovalov, D.-H. Pham, D. kouamé, and J.-C. Pesquet, *A Proximal 
 The simulated data is in the folder named  'data'
 Data contains 4 sequences with 4 types of motion ####
   
-### Data without noise: 
+### Data without noise
     MAP_B1 : data with Bspline motions of max magnitude 1
     MAP_B5 : data with Bspline motions of max magnitude 5
     MAP_T1 : data with translations of max magnitude 1
     MAP_T5 : data with translations of max magnitude 5 
-### Grountruth flow: 
+### Grountruth flow
     MaskFlow : flow mask
     MAP_Flow : groundtruth flow without motion 
-### Noise matrices 35 dB : 
+### Noise matrices 35 dB 
     Noise_B1 : noise for MAP_B1 sequences
     Noise_B5 : noise for MAP_B5 sequences
     Noise_T1 : noise for MAP_T1 sequences
